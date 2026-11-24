@@ -4,7 +4,9 @@ Agentic control of LC-MS, HPLC and NMR through the vendor software, shown in sim
 
 A planning agent should be able to say "measure these samples with this approved method" and get back a
 result it can trust, without touching pumps, gradients or pulse programs. This repository is that layer for
-three analytical instruments, with simulators standing in for the instruments and their software.
+3 analytical instruments, with simulators standing in for the instruments and their software.
+Nothing here has run against a real instrument or real vendor software; the vendor call names and XML in the
+adapters are placeholders.
 
 ![One round on a timeline](docs/demo/figures/timeline.svg)
 
@@ -15,7 +17,7 @@ three analytical instruments, with simulators standing in for the instruments an
 2. **Use the most supported interface the installed system offers.** In order: the vendor's API; the vendor's
    documented queue or file interface for a LIMS; a lab standard if the instrument ships one (SiLA 2, OPC UA
    LADS); only then the operator screen, through browser or desktop UI automation.
-3. **Give the agent a few tools, not the instrument.** Five MCP tools: `list_instruments`,
+3. **Give the agent a few tools, not the instrument.** 5 MCP tools: `list_instruments`,
    `request_measurement`, `get_measurement`, `cancel_measurement`, `read_ledger`. The agent names an approved
    method version; it never sends instrument parameters.
 4. **Make every request idempotent and findable.** The agent's `request_id` goes into a field the vendor
@@ -25,7 +27,7 @@ three analytical instruments, with simulators standing in for the instruments an
    monitoring resumes. Not found within the grace period, or found twice: a person decides (adopt, resubmit
    or abandon), and the decision is recorded under their name. The agent has no tool for this.
 6. **Record every call that changes an instrument,** before the call is made, in a hash-chained ledger.
-7. **A completed run and a usable result are two decisions.** Each approved method version carries its
+7. **A completed run and a usable result are 2 decisions.** Each approved method version carries its
    acceptance criteria. Only results that pass them feed the next design round.
 
 ## How each instrument is reached
@@ -54,22 +56,22 @@ operator.
 
 ## One round, in simulation
 
-Four top hits go through purity, plasma stability and NMR. Four things go wrong on purpose.
+4 top hits go through purity, plasma stability and NMR. 4 things go wrong on purpose.
 
 | Step | What happened |
 |---|---|
 | HPLC purity, 4 hits | Vial P1-A3 holds another peptide's tube: barcode mismatch, not injected, reported. TOPHIT-04 at 86.9 % is held back. |
 | LC-MS stability | The planner first names a draft method version: refused before anything is sent. Then the reply from SCIEX OS is lost after the batch was accepted: the gateway finds the batch in the queue and keeps monitoring. Nothing runs twice. |
-| NMR on the most stable hit | Finished, but the DSS line is 1.66 Hz against a 1.0 Hz limit, so not usable. Asked again with a full reshim: 0.76 Hz, and the designed residue's two methyl singlets are there. |
+| NMR on the most stable hit | Finished, but the DSS line is 1.66 Hz against a 1.0 Hz limit, so not usable. Asked again with a full reshim: 0.76 Hz, and the designed residue's 2 methyl singlets are there. |
 | TOPHIT-03 after the vial fix | Purity 95.4 %. Its stability batch never reaches SCIEX OS: `unknown`, then `needs_operator` after 10 minutes. A second LC-MS request is refused while the instrument is held. The operator checks SCIEX OS and resubmits. |
-| Decision | Build on TOPHIT-01 (plasma half-life about 300 min, structure confirmed by NMR); NMR for TOPHIT-03 next. |
+| Decision | Build on TOPHIT-01 (plasma half-life about 300 min, extrapolated past the last sample at 240 min; designed residue confirmed by NMR); NMR for TOPHIT-03 next. |
 
 ![Plasma stability](docs/demo/figures/stability.svg)
 
 ![NMR](docs/demo/figures/nmr.svg)
 
 The full run page, with the HPLC chromatograms, every acceptance check, the ledger and all 34 tool calls, is
-[docs/demo/index.html](docs/demo/index.html) (open it in a browser).
+[live here](https://di-omics.github.io/agentic-lcms-hplc-nmr/demo/) (source: [docs/demo/index.html](docs/demo/index.html)).
 
 ## Run it
 
@@ -103,7 +105,7 @@ uv run lab-operator decide --run-dir runs/demo --request-id ID --decision resubm
 
 ```
 src/lab_gateway/
-  mcp_server.py          the five tools
+  mcp_server.py          the 5 tools
   gateway.py             checks, reservation, ledger, lost replies, operator decisions
   evaluate.py            acceptance criteria per method: the QC gate
   analysis.py            integration, tailing, plate count, half-life fit, NMR processing
