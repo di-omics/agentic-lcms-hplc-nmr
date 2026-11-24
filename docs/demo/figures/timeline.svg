@@ -86,7 +86,7 @@ line,polyline,path,rect.o{fill:none}
 <rect class="o held" x="670.6" y="103.0" width="9.9" height="18" stroke-dasharray="3 2" stroke-width="1.5"><title>r1-lcms-stability-03: unknown from 578.0 to 588.0 min. reply lost: connection to SCIEX OS dropped before the batch was acknowledged. Instrument held; searching the vendor queue</title></rect>
 <rect class="o held" x="680.5" y="103.0" width="2.0" height="18" stroke-dasharray="3 2" stroke-width="1.5"><title>r1-lcms-stability-03: needs_operator from 588.0 to 588.0 min. not in the vendor queue or history after the grace period; an operator must reconcile before another injection</title></rect>
 <text x="676.5" y="116.0" class="s ink2" text-anchor="end">held for operator</text>
-<rect class="f1" x="680.5" y="103.0" width="2.0" height="18" rx="2"><title>r1-lcms-stability-03: reserved from 588.0 to 588.0 min. operator operator (simulated) confirmed nothing ran; resubmitting</title></rect>
+<rect class="f1" x="680.5" y="103.0" width="2.0" height="18" rx="2"><title>r1-lcms-stability-03: reserved from 588.0 to 588.0 min. operator on duty (simulated) confirmed nothing ran; resubmitting</title></rect>
 <rect class="f1" x="680.5" y="103.0" width="2.0" height="18" rx="2"><title>r1-lcms-stability-03: submitted from 588.0 to 588.0 min. accepted: batch r1-lcms-stability-03~2 with 51 injections</title></rect>
 <rect class="f1" x="680.5" y="103.0" width="151.0" height="18" rx="2"><title>r1-lcms-stability-03: running from 588.0 to 741.0 min. acquiring</title></rect>
 <text x="670.6" y="134.0" class="s ink2" text-anchor="start">stability, TOPHIT-03</text>

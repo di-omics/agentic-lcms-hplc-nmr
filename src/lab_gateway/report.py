@@ -301,7 +301,8 @@ def build(run: Path, out: Path) -> Path:
 <p class="lead">A planning agent asks for measurements through 5 MCP tools. The gateway turns each request into
 the vendor's own unit of work, an Agilent Sample Scheduler XML command, a SCIEX OS batch or a Bruker SpinPilot
 experiment, and the vendor software keeps control of the instrument.</p>
-<p>Every instrument and every number here is simulated. No instrument or vendor software was connected.</p>
+<p>Every instrument and every number here is simulated. No instrument or vendor software was connected. The vendor
+call names and XML in the gateway's adapters (src/lab_gateway/adapters) are placeholders.</p>
 <div class="tiles">
 <div class="tile"><b>{len(st)}</b><span>measurements</span></div>
 <div class="tile"><b>{camp['tool_calls']}</b><span>MCP tool calls</span></div>
@@ -310,8 +311,8 @@ experiment, and the vendor software keeps control of the instrument.</p>
 </div>
 
 <h2>The round</h2>
-<p>Purity first, then plasma stability for the hits that pass, then NMR on the most stable one. Four things go
-wrong on purpose: a swapped vial, two lost replies from SCIEX OS, and a drifted shim. The open bar is the time
+<p>Purity first, then plasma stability for the hits that pass, then NMR on the most stable one. 4 things go
+wrong on purpose: a swapped vial, 2 lost replies from SCIEX OS, and a drifted shim. The open bar is the time
 the LC-MS was held while nobody knew whether the batch had started.</p>
 <figure>{figs['timeline']}<figcaption>Bars are requests; triangles mark lost replies, the reconcile and the operator's
 decision. Hover for details.</figcaption></figure>
@@ -341,7 +342,7 @@ breaks down fast: if the control survives, the plasma was not active and the run
 
 <h2>NMR structure follow-up (Bruker SpinPilot on TopSpin 5)</h2>
 <p>The first spectrum finished but its reference line was too broad, so the gateway returned it as not usable.
-The planner asked again with a full reshim. LC-MS says the mass is right; NMR shows the designed residue's two
+The planner asked again with a full reshim. LC-MS says the mass is right; NMR shows the designed residue's 2
 methyl singlets.</p>
 <figure>{figs['nmr']}<figcaption>Left: the usable spectrum. Right: the DSS line from both tries.</figcaption></figure>
 {table(['try', 'check', 'value', 'limit', ''], [['first'] + r for r in qc_rows(n_bad)] + [['reshim'] + r for r in qc_rows(n_good)], {2})}

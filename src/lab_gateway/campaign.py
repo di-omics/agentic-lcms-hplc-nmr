@@ -58,7 +58,8 @@ class Planner:
 
     def say(self, who: str, text: str, t_min: float | None = None, **data) -> None:
         self.log.append({"who": who, "t_min": t_min, "say": text, **({"data": data} if data else {})})
-        print(f"[{'' if t_min is None else f'{t_min:7.1f} min'}] {who:8s} {text}", flush=True)
+        stamp = " " * 11 if t_min is None else f"{t_min:7.1f} min"
+        print(f"[{stamp}] {who:8s} {text}", flush=True)
 
     async def wait(self, request_id: str) -> dict:
         while True:
@@ -164,7 +165,7 @@ class Planner:
             self.say("planner", f"tried another LC-MS batch meanwhile: {again['state']}: {'; '.join(again['reasons'])}",
                      again["sim_time_min"])
             note = "SCIEX OS queue and acquisition history show no batch r1-lcms-stability-03; no injection happened"
-            write_decision(self.run_dir, rid, "resubmit", "operator (simulated)", note)
+            write_decision(self.run_dir, rid, "resubmit", "on duty (simulated)", note)
             self.say("operator", f"checked SCIEX OS: {note}. Decision: resubmit")
             v = await self.wait(rid)
         t3 = next(s for s in v["samples"] if s["analyte"] == "TOPHIT-03")

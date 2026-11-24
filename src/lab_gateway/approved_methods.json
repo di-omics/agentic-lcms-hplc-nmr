@@ -9,7 +9,7 @@
       "vendor_ref": {
         "cds": "Agilent OpenLab CDS",
         "method": "PeptidePurity_214nm_v2.amx",
-        "project": "FrontierAI-Peptides"
+        "project": "Example-Peptides"
       },
       "fingerprint": "sha256:4ea05b8207d3a9be3983bbdfed2161145eb5be08d643052cf1ecd3dd9e8ce065",
       "max_samples": 40,
