@@ -1,0 +1,34 @@
+[project]
+name = "agentic-lcms-hplc-nmr"
+version = "0.1.0"
+description = "Agentic control of LC-MS, HPLC and NMR through the vendor software, shown in simulation."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "di-omics" }]
+dependencies = [
+  "numpy>=2.0",
+  "mcp>=2.0",
+]
+
+[project.optional-dependencies]
+browser = ["playwright>=1.45"]
+
+[project.scripts]
+lab-gateway-mcp = "lab_gateway.mcp_server:main"
+lab-operator = "lab_gateway.operator_cli:main"
+lab-demo = "lab_gateway.campaign:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lab_gateway"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

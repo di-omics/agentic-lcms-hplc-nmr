@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="900" height="250" role="img">
+<title>The round on a timeline</title>
+<desc>Each bar is one request on one instrument, in simulated hours.</desc>
+<style>
+text{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:300}
+.t{font-size:13px}.s{font-size:11px}.h{font-size:14px;font-weight:400}
+line,polyline,path,rect.o{fill:none}
+.grid,.axis{stroke-width:1}
+.bg{fill:#ffffff}
+.ink{fill:#0b0b0b}
+.ink2{fill:#52514e}
+.muted{fill:#898781}
+.grid{stroke:#e1e0d9}
+.axis{stroke:#c3c2b7}
+.band{fill:#f1f0ec}
+.held{stroke:#52514e}
+.s1{stroke:#2a78d6}
+.f1{fill:#2a78d6}
+.s2{stroke:#eb6834}
+.f2{fill:#eb6834}
+.s3{stroke:#1baf7a}
+.f3{fill:#1baf7a}
+.s4{stroke:#eda100}
+.f4{fill:#eda100}
+@media (prefers-color-scheme: dark){
+.bg{fill:#1a1a19}
+.ink{fill:#f0efec}
+.ink2{fill:#c3c2b7}
+.muted{fill:#898781}
+.grid{stroke:#2c2c2a}
+.axis{stroke:#383835}
+.band{fill:#242422}
+.held{stroke:#c3c2b7}
+.s1{stroke:#3987e5}
+.f1{fill:#3987e5}
+.s2{stroke:#d95926}
+.f2{fill:#d95926}
+.s3{stroke:#199e70}
+.f3{fill:#199e70}
+.s4{stroke:#c98500}
+.f4{fill:#c98500}
+}
+</style>
+<rect class="bg" x="0" y="0" width="900" height="250"/>
+<clipPath id="c65087488"><rect x="100" y="30" width="770" height="160"/></clipPath>
+<line class="grid" x1="100.0" x2="100.0" y1="30" y2="190"/>
+<text x="100.0" y="206.0" class="s muted" text-anchor="middle">0</text>
+<line class="grid" x1="218.5" x2="218.5" y1="30" y2="190"/>
+<text x="218.5" y="206.0" class="s muted" text-anchor="middle">2</text>
+<line class="grid" x1="336.9" x2="336.9" y1="30" y2="190"/>
+<text x="336.9" y="206.0" class="s muted" text-anchor="middle">4</text>
+<line class="grid" x1="455.4" x2="455.4" y1="30" y2="190"/>
+<text x="455.4" y="206.0" class="s muted" text-anchor="middle">6</text>
+<line class="grid" x1="573.8" x2="573.8" y1="30" y2="190"/>
+<text x="573.8" y="206.0" class="s muted" text-anchor="middle">8</text>
+<line class="grid" x1="692.3" x2="692.3" y1="30" y2="190"/>
+<text x="692.3" y="206.0" class="s muted" text-anchor="middle">10</text>
+<line class="grid" x1="810.8" x2="810.8" y1="30" y2="190"/>
+<text x="810.8" y="206.0" class="s muted" text-anchor="middle">12</text>
+<text x="485.0" y="224.0" class="s muted" text-anchor="middle">simulated hours since the round started</text>
+<text x="90.0" y="60.0" class="t ink2" text-anchor="end">HPLC-01</text>
+<text x="90.0" y="115.0" class="t ink2" text-anchor="end">LCMS-01</text>
+<text x="90.0" y="170.0" class="t ink2" text-anchor="end">NMR-01</text>
+<rect class="f1" x="100.0" y="48.0" width="2.0" height="18" rx="2"><title>r1-hplc-purity: reserved from 0.0 to 0.0 min. HPLC-01 reserved</title></rect>
+<rect class="f1" x="100.0" y="48.0" width="2.0" height="18" rx="2"><title>r1-hplc-purity: submitted from 0.0 to 1.0 min. accepted: XML command r1-hplc-purity.xml written to the LIMS commands folder</title></rect>
+<rect class="f1" x="101.0" y="48.0" width="178.7" height="18" rx="2"><title>r1-hplc-purity: running from 1.0 to 182.0 min. acquiring</title></rect>
+<text x="100.0" y="43.0" class="s ink2" text-anchor="start">purity, 4 top hits</text>
+<rect class="f1" x="279.7" y="103.0" width="2.0" height="18" rx="2"><title>r1-lcms-stability: reserved from 182.0 to 182.0 min. LCMS-01 reserved</title></rect>
+<rect class="o held" x="279.7" y="103.0" width="2.0" height="18" stroke-dasharray="3 2" stroke-width="1.5"><title>r1-lcms-stability: unknown from 182.0 to 182.0 min. reply lost: connection dropped right after Submit; SCIEX OS may already be acquiring. Instrument held; searching the vendor queue</title></rect>
+<rect class="f1" x="279.7" y="103.0" width="2.0" height="18" rx="2"><title>r1-lcms-stability: submitted from 182.0 to 182.0 min. found B0001 in the vendor queue: monitoring resumed, nothing resubmitted</title></rect>
+<rect class="f1" x="279.7" y="103.0" width="225.1" height="18" rx="2"><title>r1-lcms-stability: running from 182.0 to 410.0 min. acquiring</title></rect>
+<text x="279.7" y="98.0" class="s ink2" text-anchor="start">plasma stability, 2 hits + control</text>
+<rect class="f1" x="504.7" y="158.0" width="2.0" height="18" rx="2"><title>r1-nmr-tophit-01: reserved from 410.0 to 410.0 min. NMR-01 reserved</title></rect>
+<rect class="f1" x="504.7" y="158.0" width="2.0" height="18" rx="2"><title>r1-nmr-tophit-01: submitted from 410.0 to 410.0 min. accepted: experiment E0001 &#x27;r1-nmr-tophit-01&#x27; for holder 12</title></rect>
+<rect class="f1" x="504.7" y="158.0" width="9.9" height="18" rx="2"><title>r1-nmr-tophit-01: running from 410.0 to 420.0 min. sample in</title></rect>
+<text x="504.7" y="153.0" class="s ink2" text-anchor="start">1H NMR, not usable</text>
+<rect class="f1" x="514.6" y="158.0" width="2.0" height="18" rx="2"><title>r1-nmr-tophit-01-reshim: reserved from 420.0 to 420.0 min. NMR-01 reserved</title></rect>
+<rect class="f1" x="514.6" y="158.0" width="2.0" height="18" rx="2"><title>r1-nmr-tophit-01-reshim: submitted from 420.0 to 420.0 min. accepted: experiment E0002 &#x27;r1-nmr-tophit-01-reshim&#x27; for holder 12</title></rect>
+<rect class="f1" x="514.6" y="158.0" width="12.8" height="18" rx="2"><title>r1-nmr-tophit-01-reshim: running from 420.0 to 433.0 min. sample in</title></rect>
+<text x="514.6" y="189.0" class="s ink2" text-anchor="start">1H NMR again</text>
+<rect class="f1" x="527.4" y="48.0" width="2.0" height="18" rx="2"><title>r1-hplc-purity-03: reserved from 433.0 to 433.0 min. HPLC-01 reserved</title></rect>
+<rect class="f1" x="527.4" y="48.0" width="2.0" height="18" rx="2"><title>r1-hplc-purity-03: submitted from 433.0 to 434.0 min. accepted: XML command r1-hplc-purity-03.xml written to the LIMS commands folder</title></rect>
+<rect class="f1" x="528.4" y="48.0" width="142.2" height="18" rx="2"><title>r1-hplc-purity-03: running from 434.0 to 578.0 min. acquiring</title></rect>
+<text x="527.4" y="79.0" class="s ink2" text-anchor="start">purity, TOPHIT-03</text>
+<rect class="f1" x="670.6" y="103.0" width="2.0" height="18" rx="2"><title>r1-lcms-stability-03: reserved from 578.0 to 578.0 min. LCMS-01 reserved</title></rect>
+<rect class="o held" x="670.6" y="103.0" width="9.9" height="18" stroke-dasharray="3 2" stroke-width="1.5"><title>r1-lcms-stability-03: unknown from 578.0 to 588.0 min. reply lost: connection to SCIEX OS dropped before the batch was acknowledged. Instrument held; searching the vendor queue</title></rect>
+<rect class="o held" x="680.5" y="103.0" width="2.0" height="18" stroke-dasharray="3 2" stroke-width="1.5"><title>r1-lcms-stability-03: needs_operator from 588.0 to 588.0 min. not in the vendor queue or history after the grace period; an operator must reconcile before another injection</title></rect>
+<text x="676.5" y="116.0" class="s ink2" text-anchor="end">held for operator</text>
+<rect class="f1" x="680.5" y="103.0" width="2.0" height="18" rx="2"><title>r1-lcms-stability-03: reserved from 588.0 to 588.0 min. operator operator (simulated) confirmed nothing ran; resubmitting</title></rect>
+<rect class="f1" x="680.5" y="103.0" width="2.0" height="18" rx="2"><title>r1-lcms-stability-03: submitted from 588.0 to 588.0 min. accepted: batch r1-lcms-stability-03~2 with 51 injections</title></rect>
+<rect class="f1" x="680.5" y="103.0" width="151.0" height="18" rx="2"><title>r1-lcms-stability-03: running from 588.0 to 741.0 min. acquiring</title></rect>
+<text x="670.6" y="134.0" class="s ink2" text-anchor="start">stability, TOPHIT-03</text>
+<path class="ink" d="M279.7,101.0 l4,-6 h-8 z"><title>reply lost at 182 min</title></path>
+<path class="ink" d="M279.7,101.0 l4,-6 h-8 z"><title>found in SCIEX OS queue at 182 min</title></path>
+<path class="ink" d="M670.6,101.0 l4,-6 h-8 z"><title>reply lost at 578 min</title></path>
+<path class="ink" d="M680.5,101.0 l4,-6 h-8 z"><title>operator needed at 588 min</title></path>
+<path class="ink" d="M680.5,101.0 l4,-6 h-8 z"><title>operator: resubmit at 588 min</title></path>
+</svg>

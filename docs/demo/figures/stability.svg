@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340" role="img">
+<title>Intact peptide in plasma</title>
+<desc>Percent remaining against time, log scale, 3 replicates per point.</desc>
+<style>
+text{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:300}
+.t{font-size:13px}.s{font-size:11px}.h{font-size:14px;font-weight:400}
+line,polyline,path,rect.o{fill:none}
+.grid,.axis{stroke-width:1}
+.bg{fill:#ffffff}
+.ink{fill:#0b0b0b}
+.ink2{fill:#52514e}
+.muted{fill:#898781}
+.grid{stroke:#e1e0d9}
+.axis{stroke:#c3c2b7}
+.band{fill:#f1f0ec}
+.held{stroke:#52514e}
+.s1{stroke:#2a78d6}
+.f1{fill:#2a78d6}
+.s2{stroke:#eb6834}
+.f2{fill:#eb6834}
+.s3{stroke:#1baf7a}
+.f3{fill:#1baf7a}
+.s4{stroke:#eda100}
+.f4{fill:#eda100}
+@media (prefers-color-scheme: dark){
+.bg{fill:#1a1a19}
+.ink{fill:#f0efec}
+.ink2{fill:#c3c2b7}
+.muted{fill:#898781}
+.grid{stroke:#2c2c2a}
+.axis{stroke:#383835}
+.band{fill:#242422}
+.held{stroke:#c3c2b7}
+.s1{stroke:#3987e5}
+.f1{fill:#3987e5}
+.s2{stroke:#d95926}
+.f2{fill:#d95926}
+.s3{stroke:#199e70}
+.f3{fill:#199e70}
+.s4{stroke:#c98500}
+.f4{fill:#c98500}
+}
+</style>
+<rect class="bg" x="0" y="0" width="900" height="340"/>
+<clipPath id="c16587603"><rect x="70" y="36" width="600" height="250"/></clipPath>
+<line class="grid" x1="70" x2="670" y1="265.0" y2="265.0"/>
+<text x="64.0" y="269.0" class="s muted" text-anchor="end">0.5</text>
+<line class="grid" x1="70" x2="670" y1="236.4" y2="236.4"/>
+<text x="64.0" y="240.4" class="s muted" text-anchor="end">1</text>
+<line class="grid" x1="70" x2="670" y1="191.2" y2="191.2"/>
+<text x="64.0" y="195.2" class="s muted" text-anchor="end">3</text>
+<line class="grid" x1="70" x2="670" y1="141.6" y2="141.6"/>
+<text x="64.0" y="145.6" class="s muted" text-anchor="end">10</text>
+<line class="grid" x1="70" x2="670" y1="96.4" y2="96.4"/>
+<text x="64.0" y="100.4" class="s muted" text-anchor="end">30</text>
+<line class="grid" x1="70" x2="670" y1="46.8" y2="46.8"/>
+<text x="64.0" y="50.8" class="s muted" text-anchor="end">100</text>
+<line class="axis" x1="70" x2="670" y1="286" y2="286"/>
+<line class="axis" x1="70.0" x2="70.0" y1="286" y2="290"/>
+<text x="70.0" y="302.0" class="s muted" text-anchor="middle">0</text>
+<line class="axis" x1="106.0" x2="106.0" y1="286" y2="290"/>
+<text x="106.0" y="302.0" class="s muted" text-anchor="middle">15</text>
+<line class="axis" x1="142.0" x2="142.0" y1="286" y2="290"/>
+<text x="142.0" y="302.0" class="s muted" text-anchor="middle">30</text>
+<line class="axis" x1="214.0" x2="214.0" y1="286" y2="290"/>
+<text x="214.0" y="302.0" class="s muted" text-anchor="middle">60</text>
+<line class="axis" x1="358.0" x2="358.0" y1="286" y2="290"/>
+<text x="358.0" y="302.0" class="s muted" text-anchor="middle">120</text>
+<line class="axis" x1="502.0" x2="502.0" y1="286" y2="290"/>
+<text x="502.0" y="302.0" class="s muted" text-anchor="middle">180</text>
+<line class="axis" x1="646.0" x2="646.0" y1="286" y2="290"/>
+<text x="646.0" y="302.0" class="s muted" text-anchor="middle">240</text>
+<text x="370.0" y="318.0" class="s muted" text-anchor="middle">minutes in plasma at 37 C</text>
+<text x="70.0" y="28.0" class="s muted" text-anchor="start">% remaining (analyte / internal standard, T0 = 100)</text>
+<line class="axis" stroke-dasharray="4 3" x1="70" x2="670" y1="265.0" y2="265.0"/>
+<text x="666.0" y="261.0" class="s muted" text-anchor="end">LLOQ 0.5 %</text>
+<polyline class="s1" clip-path="url(#c16587603)" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" points="70.0,46.8 82.0,45.9 106.0,47.7 142.0,48.9 214.0,52.6 358.0,58.3 502.0,63.0 646.0,69.5"></polyline>
+<circle class="f1" cx="70.0" cy="47.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 0 min: 98.7 %</title></circle>
+<circle class="f1" cx="70.0" cy="46.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 0 min: 101.1 %</title></circle>
+<circle class="f1" cx="70.0" cy="46.7" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 0 min: 100.2 %</title></circle>
+<circle class="f1" cx="82.0" cy="44.9" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 5 min: 104.7 %</title></circle>
+<circle class="f1" cx="82.0" cy="46.5" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 5 min: 100.7 %</title></circle>
+<circle class="f1" cx="82.0" cy="46.3" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 5 min: 101.3 %</title></circle>
+<circle class="f1" cx="106.0" cy="47.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 15 min: 97.6 %</title></circle>
+<circle class="f1" cx="106.0" cy="49.3" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 15 min: 94.1 %</title></circle>
+<circle class="f1" cx="106.0" cy="46.0" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 15 min: 101.9 %</title></circle>
+<circle class="f1" cx="142.0" cy="46.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 30 min: 100.0 %</title></circle>
+<circle class="f1" cx="142.0" cy="50.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 30 min: 90.7 %</title></circle>
+<circle class="f1" cx="142.0" cy="49.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 30 min: 94.0 %</title></circle>
+<circle class="f1" cx="214.0" cy="52.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 60 min: 87.4 %</title></circle>
+<circle class="f1" cx="214.0" cy="53.7" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 60 min: 84.6 %</title></circle>
+<circle class="f1" cx="214.0" cy="51.7" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 60 min: 88.8 %</title></circle>
+<circle class="f1" cx="358.0" cy="58.5" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 120 min: 75.3 %</title></circle>
+<circle class="f1" cx="358.0" cy="57.9" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 120 min: 76.3 %</title></circle>
+<circle class="f1" cx="358.0" cy="58.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 120 min: 75.1 %</title></circle>
+<circle class="f1" cx="502.0" cy="62.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 180 min: 67.8 %</title></circle>
+<circle class="f1" cx="502.0" cy="63.9" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 180 min: 66.1 %</title></circle>
+<circle class="f1" cx="502.0" cy="62.2" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 180 min: 68.8 %</title></circle>
+<circle class="f1" cx="646.0" cy="70.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 240 min: 56.3 %</title></circle>
+<circle class="f1" cx="646.0" cy="68.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 240 min: 59.2 %</title></circle>
+<circle class="f1" cx="646.0" cy="69.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01, 240 min: 57.4 %</title></circle>
+<text x="656.0" y="73.5" class="s ink" text-anchor="start">TOPHIT-01  half-life 297 min</text>
+<polyline class="s3" clip-path="url(#c16587603)" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" points="70.0,46.8 82.0,47.3 106.0,49.6 142.0,51.0 214.0,58.6 358.0,69.9 502.0,83.5 646.0,95.1"></polyline>
+<circle class="f3" cx="70.0" cy="47.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 0 min: 98.5 %</title></circle>
+<circle class="f3" cx="70.0" cy="46.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 0 min: 100.5 %</title></circle>
+<circle class="f3" cx="70.0" cy="46.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 0 min: 101.0 %</title></circle>
+<circle class="f3" cx="82.0" cy="46.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 5 min: 100.1 %</title></circle>
+<circle class="f3" cx="82.0" cy="47.0" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 5 min: 99.5 %</title></circle>
+<circle class="f3" cx="82.0" cy="48.3" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 5 min: 96.5 %</title></circle>
+<circle class="f3" cx="106.0" cy="49.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 15 min: 93.9 %</title></circle>
+<circle class="f3" cx="106.0" cy="48.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 15 min: 95.3 %</title></circle>
+<circle class="f3" cx="106.0" cy="50.5" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 15 min: 91.4 %</title></circle>
+<circle class="f3" cx="142.0" cy="51.0" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 30 min: 90.3 %</title></circle>
+<circle class="f3" cx="142.0" cy="50.3" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 30 min: 91.8 %</title></circle>
+<circle class="f3" cx="142.0" cy="51.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 30 min: 88.6 %</title></circle>
+<circle class="f3" cx="214.0" cy="57.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 60 min: 77.3 %</title></circle>
+<circle class="f3" cx="214.0" cy="59.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 60 min: 73.6 %</title></circle>
+<circle class="f3" cx="214.0" cy="59.0" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 60 min: 74.4 %</title></circle>
+<circle class="f3" cx="358.0" cy="70.7" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 120 min: 56.0 %</title></circle>
+<circle class="f3" cx="358.0" cy="70.3" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 120 min: 56.6 %</title></circle>
+<circle class="f3" cx="358.0" cy="68.9" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 120 min: 58.5 %</title></circle>
+<circle class="f3" cx="502.0" cy="85.3" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 180 min: 39.3 %</title></circle>
+<circle class="f3" cx="502.0" cy="83.2" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 180 min: 41.3 %</title></circle>
+<circle class="f3" cx="502.0" cy="82.1" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 180 min: 42.4 %</title></circle>
+<circle class="f3" cx="646.0" cy="94.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 240 min: 31.2 %</title></circle>
+<circle class="f3" cx="646.0" cy="95.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 240 min: 30.6 %</title></circle>
+<circle class="f3" cx="646.0" cy="95.0" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-03, 240 min: 31.0 %</title></circle>
+<text x="656.0" y="99.1" class="s ink" text-anchor="start">TOPHIT-03  half-life 140 min</text>
+<polyline class="s2" clip-path="url(#c16587603)" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" points="70.0,46.8 82.0,47.8 106.0,51.2 142.0,54.7 214.0,65.3 358.0,83.4 502.0,101.3 646.0,117.2"></polyline>
+<circle class="f2" cx="70.0" cy="46.2" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 0 min: 101.5 %</title></circle>
+<circle class="f2" cx="70.0" cy="47.3" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 0 min: 98.7 %</title></circle>
+<circle class="f2" cx="70.0" cy="46.9" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 0 min: 99.8 %</title></circle>
+<circle class="f2" cx="82.0" cy="47.5" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 5 min: 98.3 %</title></circle>
+<circle class="f2" cx="82.0" cy="48.2" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 5 min: 96.6 %</title></circle>
+<circle class="f2" cx="82.0" cy="47.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 5 min: 98.1 %</title></circle>
+<circle class="f2" cx="106.0" cy="51.2" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 15 min: 89.9 %</title></circle>
+<circle class="f2" cx="106.0" cy="50.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 15 min: 90.7 %</title></circle>
+<circle class="f2" cx="106.0" cy="51.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 15 min: 89.0 %</title></circle>
+<circle class="f2" cx="142.0" cy="58.1" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 30 min: 76.0 %</title></circle>
+<circle class="f2" cx="142.0" cy="53.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 30 min: 85.1 %</title></circle>
+<circle class="f2" cx="142.0" cy="52.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 30 min: 86.4 %</title></circle>
+<circle class="f2" cx="214.0" cy="63.9" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 60 min: 66.0 %</title></circle>
+<circle class="f2" cx="214.0" cy="67.3" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 60 min: 60.8 %</title></circle>
+<circle class="f2" cx="214.0" cy="64.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 60 min: 64.5 %</title></circle>
+<circle class="f2" cx="358.0" cy="83.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 120 min: 41.1 %</title></circle>
+<circle class="f2" cx="358.0" cy="84.1" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 120 min: 40.4 %</title></circle>
+<circle class="f2" cx="358.0" cy="82.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 120 min: 41.8 %</title></circle>
+<circle class="f2" cx="502.0" cy="99.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 180 min: 27.7 %</title></circle>
+<circle class="f2" cx="502.0" cy="103.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 180 min: 25.2 %</title></circle>
+<circle class="f2" cx="502.0" cy="100.9" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 180 min: 26.9 %</title></circle>
+<circle class="f2" cx="646.0" cy="115.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 240 min: 18.9 %</title></circle>
+<circle class="f2" cx="646.0" cy="119.1" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 240 min: 17.3 %</title></circle>
+<circle class="f2" cx="646.0" cy="117.1" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02, 240 min: 18.1 %</title></circle>
+<text x="656.0" y="121.2" class="s ink" text-anchor="start">TOPHIT-02  half-life 96 min</text>
+<polyline class="s4" clip-path="url(#c16587603)" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" points="70.0,46.8 82.0,59.7 106.0,83.0 142.0,117.8 214.0,191.5"></polyline>
+<circle class="f4" cx="70.0" cy="47.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL, 0 min: 97.6 %</title></circle>
+<circle class="f4" cx="70.0" cy="46.0" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL, 0 min: 102.0 %</title></circle>
+<circle class="f4" cx="70.0" cy="46.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL, 0 min: 100.4 %</title></circle>
+<circle class="f4" cx="82.0" cy="58.3" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL, 5 min: 75.7 %</title></circle>
+<circle class="f4" cx="82.0" cy="59.3" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL, 5 min: 73.8 %</title></circle>
+<circle class="f4" cx="82.0" cy="61.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL, 5 min: 69.8 %</title></circle>
+<circle class="f4" cx="106.0" cy="83.5" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL, 15 min: 41.0 %</title></circle>
+<circle class="f4" cx="106.0" cy="81.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL, 15 min: 43.2 %</title></circle>
+<circle class="f4" cx="106.0" cy="84.3" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL, 15 min: 40.3 %</title></circle>
+<circle class="f4" cx="142.0" cy="118.3" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL, 30 min: 17.6 %</title></circle>
+<circle class="f4" cx="142.0" cy="118.3" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL, 30 min: 17.6 %</title></circle>
+<circle class="f4" cx="142.0" cy="116.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL, 30 min: 18.3 %</title></circle>
+<circle class="f4" cx="214.0" cy="190.9" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL, 60 min: 3.0 %</title></circle>
+<circle class="f4" cx="214.0" cy="191.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL, 60 min: 3.0 %</title></circle>
+<circle class="f4" cx="214.0" cy="192.0" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL, 60 min: 2.9 %</title></circle>
+<text x="224.0" y="195.5" class="s ink" text-anchor="start">STAB-CTRL  half-life 12 min</text>
+<line class="s1" stroke-width="2" x1="394.0" x2="410.0" y1="145.95251101019448" y2="145.95251101019448"/>
+<text x="416.0" y="150.0" class="s ink2" text-anchor="start">TOPHIT-01</text>
+<line class="s3" stroke-width="2" x1="394.0" x2="410.0" y1="163.95251101019448" y2="163.95251101019448"/>
+<text x="416.0" y="168.0" class="s ink2" text-anchor="start">TOPHIT-03</text>
+<line class="s2" stroke-width="2" x1="394.0" x2="410.0" y1="181.95251101019448" y2="181.95251101019448"/>
+<text x="416.0" y="186.0" class="s ink2" text-anchor="start">TOPHIT-02</text>
+<line class="s4" stroke-width="2" x1="394.0" x2="410.0" y1="199.95251101019448" y2="199.95251101019448"/>
+<text x="416.0" y="204.0" class="s ink2" text-anchor="start">STAB-CTRL (control)</text>
+<text x="394.0" y="226.0" class="s muted" text-anchor="start">Points below the LLOQ are not drawn and not fitted.</text>
+</svg>

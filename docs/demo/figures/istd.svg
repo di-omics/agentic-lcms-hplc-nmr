@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200" role="img">
+<title>Internal standard response</title>
+<desc>Each injection&#x27;s internal standard area as a percent of the batch median.</desc>
+<style>
+text{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:300}
+.t{font-size:13px}.s{font-size:11px}.h{font-size:14px;font-weight:400}
+line,polyline,path,rect.o{fill:none}
+.grid,.axis{stroke-width:1}
+.bg{fill:#ffffff}
+.ink{fill:#0b0b0b}
+.ink2{fill:#52514e}
+.muted{fill:#898781}
+.grid{stroke:#e1e0d9}
+.axis{stroke:#c3c2b7}
+.band{fill:#f1f0ec}
+.held{stroke:#52514e}
+.s1{stroke:#2a78d6}
+.f1{fill:#2a78d6}
+.s2{stroke:#eb6834}
+.f2{fill:#eb6834}
+.s3{stroke:#1baf7a}
+.f3{fill:#1baf7a}
+.s4{stroke:#eda100}
+.f4{fill:#eda100}
+@media (prefers-color-scheme: dark){
+.bg{fill:#1a1a19}
+.ink{fill:#f0efec}
+.ink2{fill:#c3c2b7}
+.muted{fill:#898781}
+.grid{stroke:#2c2c2a}
+.axis{stroke:#383835}
+.band{fill:#242422}
+.held{stroke:#c3c2b7}
+.s1{stroke:#3987e5}
+.f1{fill:#3987e5}
+.s2{stroke:#d95926}
+.f2{fill:#d95926}
+.s3{stroke:#199e70}
+.f3{fill:#199e70}
+.s4{stroke:#c98500}
+.f4{fill:#c98500}
+}
+</style>
+<rect class="bg" x="0" y="0" width="900" height="200"/>
+<clipPath id="c77593960"><rect x="70" y="30" width="780" height="120"/></clipPath>
+<rect class="band" x="70" y="44.1" width="780" height="70.6"/>
+<text x="846.0" y="56.1" class="s muted" text-anchor="end">acceptance band 50 to 150 % of median</text>
+<line class="grid" x1="70" x2="850" y1="150.0" y2="150.0"/>
+<text x="64.0" y="154.0" class="s muted" text-anchor="end">0</text>
+<line class="grid" x1="70" x2="850" y1="114.7" y2="114.7"/>
+<text x="64.0" y="118.7" class="s muted" text-anchor="end">50</text>
+<line class="grid" x1="70" x2="850" y1="79.4" y2="79.4"/>
+<text x="64.0" y="83.4" class="s muted" text-anchor="end">100</text>
+<line class="grid" x1="70" x2="850" y1="44.1" y2="44.1"/>
+<text x="64.0" y="48.1" class="s muted" text-anchor="end">150</text>
+<line class="axis" x1="70" x2="850" y1="150" y2="150"/>
+<line class="axis" x1="80.1" x2="80.1" y1="150" y2="154"/>
+<text x="80.1" y="166.0" class="s muted" text-anchor="middle">0</text>
+<line class="axis" x1="282.7" x2="282.7" y1="150" y2="154"/>
+<text x="282.7" y="166.0" class="s muted" text-anchor="middle">20</text>
+<line class="axis" x1="485.3" x2="485.3" y1="150" y2="154"/>
+<text x="485.3" y="166.0" class="s muted" text-anchor="middle">40</text>
+<line class="axis" x1="687.9" x2="687.9" y1="150" y2="154"/>
+<text x="687.9" y="166.0" class="s muted" text-anchor="middle">60</text>
+<text x="460.0" y="182.0" class="s muted" text-anchor="middle">injection order in batch r1-lcms-stability</text>
+<text x="70.0" y="22.0" class="s muted" text-anchor="start">IS area, % of median</text>
+<circle class="f1" cx="90.3" cy="78.9" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T0_R1: 100.8 %</title></circle>
+<circle class="f1" cx="100.4" cy="77.5" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T0_R2: 102.8 %</title></circle>
+<circle class="f1" cx="110.5" cy="80.1" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T0_R3: 99.0 %</title></circle>
+<circle class="f1" cx="130.8" cy="85.2" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T5_R1: 91.8 %</title></circle>
+<circle class="f1" cx="140.9" cy="76.2" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T5_R2: 104.6 %</title></circle>
+<circle class="f1" cx="151.0" cy="78.1" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T5_R3: 101.8 %</title></circle>
+<circle class="f1" cx="161.2" cy="80.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T15_R1: 98.6 %</title></circle>
+<circle class="f1" cx="171.3" cy="81.7" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T15_R2: 96.8 %</title></circle>
+<circle class="f1" cx="181.4" cy="80.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T15_R3: 98.3 %</title></circle>
+<circle class="f1" cx="191.6" cy="85.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T30_R1: 91.2 %</title></circle>
+<circle class="f1" cx="201.7" cy="77.2" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T30_R2: 103.2 %</title></circle>
+<circle class="f1" cx="211.8" cy="77.2" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T30_R3: 103.2 %</title></circle>
+<circle class="f1" cx="221.9" cy="80.0" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T60_R1: 99.2 %</title></circle>
+<circle class="f1" cx="232.1" cy="75.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T60_R2: 105.7 %</title></circle>
+<circle class="f1" cx="242.2" cy="74.1" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T60_R3: 107.5 %</title></circle>
+<circle class="f1" cx="252.3" cy="83.9" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T120_R1: 93.7 %</title></circle>
+<circle class="f1" cx="262.5" cy="78.1" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T120_R2: 101.8 %</title></circle>
+<circle class="f1" cx="272.6" cy="83.0" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T120_R3: 95.0 %</title></circle>
+<circle class="f1" cx="282.7" cy="79.9" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T180_R1: 99.3 %</title></circle>
+<circle class="f1" cx="292.9" cy="79.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T180_R2: 99.5 %</title></circle>
+<circle class="f1" cx="303.0" cy="74.3" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T180_R3: 107.3 %</title></circle>
+<circle class="f1" cx="313.1" cy="75.9" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T240_R1: 105.0 %</title></circle>
+<circle class="f1" cx="323.2" cy="73.2" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T240_R2: 108.8 %</title></circle>
+<circle class="f1" cx="333.4" cy="76.1" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-01_T240_R3: 104.7 %</title></circle>
+<circle class="f1" cx="343.5" cy="80.2" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T0_R1: 98.9 %</title></circle>
+<circle class="f1" cx="353.6" cy="79.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T0_R2: 100.0 %</title></circle>
+<circle class="f1" cx="363.8" cy="76.7" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T0_R3: 103.8 %</title></circle>
+<circle class="f1" cx="384.0" cy="79.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T5_R1: 99.5 %</title></circle>
+<circle class="f1" cx="394.2" cy="85.5" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T5_R2: 91.4 %</title></circle>
+<circle class="f1" cx="404.3" cy="78.5" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T5_R3: 101.3 %</title></circle>
+<circle class="f1" cx="414.4" cy="80.3" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T15_R1: 98.8 %</title></circle>
+<circle class="f1" cx="424.5" cy="79.1" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T15_R2: 100.4 %</title></circle>
+<circle class="f1" cx="434.7" cy="85.0" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T15_R3: 92.0 %</title></circle>
+<circle class="f1" cx="444.8" cy="72.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T30_R1: 109.7 %</title></circle>
+<circle class="f1" cx="454.9" cy="79.7" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T30_R2: 99.6 %</title></circle>
+<circle class="f1" cx="465.1" cy="86.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T30_R3: 89.8 %</title></circle>
+<circle class="f1" cx="475.2" cy="75.9" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T60_R1: 105.0 %</title></circle>
+<circle class="f1" cx="485.3" cy="70.2" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T60_R2: 113.0 %</title></circle>
+<circle class="f1" cx="495.5" cy="79.1" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T60_R3: 100.5 %</title></circle>
+<circle class="f1" cx="505.6" cy="79.9" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T120_R1: 99.3 %</title></circle>
+<circle class="f1" cx="515.7" cy="80.3" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T120_R2: 98.7 %</title></circle>
+<circle class="f1" cx="525.8" cy="70.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T120_R3: 112.7 %</title></circle>
+<circle class="f1" cx="536.0" cy="82.2" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T180_R1: 96.0 %</title></circle>
+<circle class="f1" cx="546.1" cy="75.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T180_R2: 105.4 %</title></circle>
+<circle class="f1" cx="556.2" cy="76.2" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T180_R3: 104.5 %</title></circle>
+<circle class="f1" cx="566.4" cy="76.9" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T240_R1: 103.6 %</title></circle>
+<circle class="f1" cx="576.5" cy="77.2" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T240_R2: 103.1 %</title></circle>
+<circle class="f1" cx="586.6" cy="78.9" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>TOPHIT-02_T240_R3: 100.7 %</title></circle>
+<circle class="f1" cx="596.8" cy="80.5" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T0_R1: 98.4 %</title></circle>
+<circle class="f1" cx="606.9" cy="83.7" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T0_R2: 93.9 %</title></circle>
+<circle class="f1" cx="617.0" cy="80.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T0_R3: 98.0 %</title></circle>
+<circle class="f1" cx="637.3" cy="79.0" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T5_R1: 100.6 %</title></circle>
+<circle class="f1" cx="647.4" cy="81.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T5_R2: 97.0 %</title></circle>
+<circle class="f1" cx="657.5" cy="75.7" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T5_R3: 105.3 %</title></circle>
+<circle class="f1" cx="667.7" cy="85.3" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T15_R1: 91.7 %</title></circle>
+<circle class="f1" cx="677.8" cy="81.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T15_R2: 96.9 %</title></circle>
+<circle class="f1" cx="687.9" cy="85.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T15_R3: 91.0 %</title></circle>
+<circle class="f1" cx="698.1" cy="79.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T30_R1: 100.0 %</title></circle>
+<circle class="f1" cx="708.2" cy="84.3" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T30_R2: 93.1 %</title></circle>
+<circle class="f1" cx="718.3" cy="81.1" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T30_R3: 97.6 %</title></circle>
+<circle class="f1" cx="728.4" cy="79.2" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T60_R1: 100.3 %</title></circle>
+<circle class="f1" cx="738.6" cy="75.9" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T60_R2: 105.0 %</title></circle>
+<circle class="f1" cx="748.7" cy="83.2" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T60_R3: 94.6 %</title></circle>
+<circle class="f1" cx="758.8" cy="76.5" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T120_R1: 104.1 %</title></circle>
+<circle class="f1" cx="769.0" cy="77.5" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T120_R2: 102.7 %</title></circle>
+<circle class="f1" cx="779.1" cy="81.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T120_R3: 97.2 %</title></circle>
+<circle class="f1" cx="789.2" cy="78.5" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T180_R1: 101.3 %</title></circle>
+<circle class="f1" cx="799.4" cy="77.9" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T180_R2: 102.1 %</title></circle>
+<circle class="f1" cx="809.5" cy="78.2" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T180_R3: 101.7 %</title></circle>
+<circle class="f1" cx="819.6" cy="84.4" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T240_R1: 93.0 %</title></circle>
+<circle class="f1" cx="829.7" cy="90.6" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T240_R2: 84.2 %</title></circle>
+<circle class="f1" cx="839.9" cy="80.8" r="4.0" stroke-width="2" style="stroke:var(--ring,transparent)"><title>STAB-CTRL_T240_R3: 98.1 %</title></circle>
+</svg>

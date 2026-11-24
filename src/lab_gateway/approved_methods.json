@@ -1,0 +1,157 @@
+{
+  "note": "Approved method registry. Fingerprints are of the method files stored in the vendor software at approval.",
+  "methods": [
+    {
+      "method_version": "HPLC-PEPTIDE-PURITY@2",
+      "kind": "hplc",
+      "status": "approved",
+      "summary": "Peptide purity by UV at 214 nm, 18 min C18 gradient. Area percent of the main peak.",
+      "vendor_ref": {
+        "cds": "Agilent OpenLab CDS",
+        "method": "PeptidePurity_214nm_v2.amx",
+        "project": "FrontierAI-Peptides"
+      },
+      "fingerprint": "sha256:4ea05b8207d3a9be3983bbdfed2161145eb5be08d643052cf1ecd3dd9e8ce065",
+      "max_samples": 40,
+      "template": {
+        "blank_position": "P1-F2",
+        "standard_position": "P1-F1",
+        "sst_injections": 5,
+        "bracketing_standard": true
+      },
+      "params": {
+        "run_time_min": 18,
+        "integration_start_min": 1.5,
+        "disregard_area_pct": 0.05,
+        "wavelength_nm": 214
+      },
+      "qc": {
+        "sst_rt_rsd_max_pct": 1.0,
+        "sst_area_rsd_max_pct": 2.0,
+        "tailing_max": 2.0,
+        "plates_min": 5000,
+        "bracket_rt_drift_max_pct": 2.0,
+        "blank_max_area_pct_of_standard": 0.1
+      },
+      "options": {}
+    },
+    {
+      "method_version": "LCMS-PLASMA-STAB@2",
+      "kind": "lcms",
+      "status": "approved",
+      "summary": "Intact peptide in quenched plasma by LC-MS/MS (MRM) with an internal standard in the quench.",
+      "vendor_ref": {
+        "software": "SCIEX OS",
+        "lc_method": "PlasmaStab_LC_v2",
+        "ms_method": "PlasmaStab_MRM_v2"
+      },
+      "fingerprint": "sha256:3dee4deda8bf898db4bf4c5934509d831c9be1d54ad9dd915cb9840bf3c37b0c",
+      "max_samples": 96,
+      "template": {
+        "start_blank": true,
+        "blank_after_t0": true,
+        "blank_position": "R1"
+      },
+      "params": {
+        "time_points_min": [
+          0,
+          5,
+          15,
+          30,
+          60,
+          120,
+          180,
+          240
+        ],
+        "replicates": 3,
+        "lloq_pct": 0.5,
+        "rt_window_min": [
+          1.0,
+          2.4
+        ],
+        "injection_time_s": 180
+      },
+      "qc": {
+        "is_cv_max_pct": 15.0,
+        "is_window_pct_of_median": [
+          50,
+          150
+        ],
+        "carryover_max_pct_of_lloq": 20.0,
+        "control_t_half_max_min": 60.0,
+        "min_points_for_fit": 3
+      },
+      "options": {}
+    },
+    {
+      "method_version": "LCMS-PLASMA-STAB@3",
+      "kind": "lcms",
+      "status": "draft",
+      "summary": "Faster 2.5 min gradient. Draft, under review; not for campaign data.",
+      "vendor_ref": {
+        "software": "SCIEX OS",
+        "lc_method": "PlasmaStab_LC_v3",
+        "ms_method": "PlasmaStab_MRM_v3"
+      },
+      "fingerprint": "sha256:e828bdc80f200783caf25550bc936270beae228f9886e607d87b914cfa8d8e15",
+      "max_samples": 96,
+      "template": {},
+      "params": {},
+      "qc": {},
+      "options": {}
+    },
+    {
+      "method_version": "NMR-1H-PEPTIDE@1",
+      "kind": "nmr",
+      "status": "approved",
+      "summary": "1D 1H with excitation-sculpting water suppression (zgesgp), 64 scans, DSS reference.",
+      "vendor_ref": {
+        "software": "Bruker SpinPilot on TopSpin 5",
+        "experiment": "PEPTIDE_1H_ESGP",
+        "pulse_program": "zgesgp"
+      },
+      "fingerprint": "sha256:88806040e82e2c379255cdb807a7c84cdca3fb3a847a35c4bcb82192992cc86d",
+      "max_samples": 1,
+      "template": {
+        "solvents": [
+          "H2O/D2O 90/10",
+          "D2O",
+          "DMSO-d6"
+        ],
+        "holders": [
+          1,
+          60
+        ]
+      },
+      "params": {
+        "ns": 64,
+        "d1_s": 2.0,
+        "lb_hz": 0.3,
+        "sw_ppm": 12.0,
+        "o1p_ppm": 4.7,
+        "sfo1_mhz": 600.13,
+        "td_complex": 16384,
+        "reference": "DSS",
+        "noise_region_ppm": [
+          -1.2,
+          -0.4
+        ],
+        "snr_region_ppm": [
+          6.5,
+          9.0
+        ]
+      },
+      "qc": {
+        "lock_required": true,
+        "ref_linewidth_max_hz": 1.0,
+        "snr_min": 50.0
+      },
+      "options": {
+        "reshim": [
+          false,
+          true
+        ]
+      }
+    }
+  ]
+}
